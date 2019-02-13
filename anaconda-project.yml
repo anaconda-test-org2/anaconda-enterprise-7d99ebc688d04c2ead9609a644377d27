@@ -1,0 +1,19 @@
+name: streaming_ohlc_data
+description: An example Bokeh application that displays streaming data.
+
+commands:
+  default:
+    bokeh_app: .
+
+channels: []
+packages: []
+
+env_specs:
+  anaconda44_py35:
+    channels: []
+    packages:
+      - python=3.5
+      - bokeh=0.12.5
+      - tornado=4.5.1
+      - numpy=1.12.1
+      - ipykernel=4.6
